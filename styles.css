@@ -1,0 +1,100 @@
+body {
+    background-color: antiquewhite;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #153050;
+    margin-bottom: 20px;
+    font-family: 'Arial Black', Arial, sans-serif;
+    border-bottom: 3px solid #0c2541;
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/* Головний контейнер */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Контейнер із зображенням */
+.image-container {
+    text-align: center;
+}
+
+/* Зображення за замовчуванням */
+.image-container img {
+    border: 2px solid black;
+    /* Рамка за замовчуванням */
+    max-width: 100%;
+    height: auto;
+}
+
+/* Контейнер зі списком */
+.list-container {
+    text-align: left;
+}
+
+/* Заголовок списку */
+.list-container h2 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #153050;
+    margin-bottom: 10px;
+}
+
+/* Список */
+#imageList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Елементи списку */
+#imageList li {
+    margin: 5px 0;
+}
+
+/* Кнопки всередині списку */
+#imageList button {
+    display: block;
+    width: 200px;
+    background-color: #d1e7ff;
+    color: #153050;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Ефекти при наведенні */
+#imageList button:hover {
+    background-color: #0c2541;
+    color: white;
+    transform: scale(1.02);
+}
+
+/* Активна кнопка */
+#imageList button.active {
+    background-color: #4caf50;
+    color: white;
+    border: 2px solid #0c2541;
+}
