@@ -21,7 +21,6 @@ h1 {
     font-size: 20px;
 }
 
-/* Головний контейнер */
 .main-container {
     display: flex;
     justify-content: center;
@@ -30,25 +29,20 @@ h1 {
     margin-top: 20px;
 }
 
-/* Контейнер із зображенням */
 .image-container {
     text-align: center;
 }
 
-/* Зображення за замовчуванням */
 .image-container img {
     border: 2px solid black;
-    /* Рамка за замовчуванням */
     max-width: 100%;
     height: auto;
 }
 
-/* Контейнер зі списком */
 .list-container {
     text-align: left;
 }
 
-/* Заголовок списку */
 .list-container h2 {
     font-family: Arial, sans-serif;
     font-size: 20px;
@@ -56,19 +50,16 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* Список */
 #imageList {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-/* Елементи списку */
 #imageList li {
     margin: 5px 0;
 }
 
-/* Кнопки всередині списку */
 #imageList button {
     display: block;
     width: 200px;
@@ -85,14 +76,12 @@ h1 {
     margin-right: auto;
 }
 
-/* Ефекти при наведенні */
 #imageList button:hover {
     background-color: #0c2541;
     color: white;
     transform: scale(1.02);
 }
 
-/* Активна кнопка */
 #imageList button.active {
     background-color: #4caf50;
     color: white;

@@ -24,11 +24,9 @@ applyChanges.addEventListener('click', () => {
     displayedImage.style.width = imageWidth.value + 'px';
     displayedImage.style.height = imageHeight.value !== 'auto' ? imageHeight.value + 'px' : 'auto';
 
-    // Додаємо стиль і товщину рамки
     displayedImage.style.borderStyle = 'solid';
     displayedImage.style.borderColor = 'black';
     displayedImage.style.borderWidth = borderThickness.value + 'px';
 
-    // Оновлюємо альтернативний текст
     displayedImage.alt = altText.value;
 });
